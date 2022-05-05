@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+.app-column-left {
+  flex: 0 0 200px;
+}
+.app-column-center {
+  min-width: 100px;
+  flex-grow: 1;
+}
+.app-column-right {
+  flex: 0 0 300px;
+}
